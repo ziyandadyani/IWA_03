@@ -1,16 +1,9 @@
-import { firstname } from "./nwabisa.";
-import {surname} from "./nwabisa";
-import { role } from "./nwabisa";
-import {display} from "./nwabisa";
+import {role as roleNwabisa} from "./nwabisa.js"
 
-import { firstname } from "./johannes";
-import {surname} from "./johannes";
-import { role } from "./johannes"
-import {display} from "./johannes"
+import { role as roleJohannes} from "./johannes.js"
 
-import { firstname } from "./alex";
-import {surname} from "./alex";
-import { role } from "./alex"
-import {display} from "./alex"
+import { role as roleAlex} from "./alex.js"
 
-console.log('Roles:', nwabisa.role, johanes.role, alex.role)
+ 
+
+console.log('Roles:', roleNwabisa, roleJohannes, roleAlex) 
